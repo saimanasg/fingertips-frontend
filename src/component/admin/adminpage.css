@@ -1,0 +1,71 @@
+/* Updated CSS for table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff; /* Header background color */
+  color: #fff; /* Header text color */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Even row background color */
+}
+
+tr:hover {
+  background-color: #f5f5f5; /* Hover row background color */
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Updated CSS for dark mode */
+.dark-mode {
+  background-color: #1e1e1e; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.dark-mode th {
+  background-color: #333; /* Dark header background color */
+}
+
+.dark-mode th,
+.dark-mode td {
+  border-bottom: 1px solid #555; /* Dark border color */
+}
+
+.dark-mode tr:nth-child(even) {
+  background-color: #2a2a2a; /* Dark even row background color */
+}
+
+.dark-mode tr:hover {
+  background-color: #3a3a3a; /* Dark hover row background color */
+}
+
+.dark-mode button {
+  background-color: #007bff; /* Button background color */
+}
+
+.dark-mode button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

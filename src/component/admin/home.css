@@ -1,0 +1,56 @@
+#navbarNav ul li {
+  margin: 5px;
+  padding: 5px;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#tag {
+  font-weight: bolder;
+  color: #237bc1;
+}
+#homeImg1 {
+  width: 275px;
+}
+#homeImg2 {
+  width: 200px;
+}
+input.form-control.me-2 {
+  width: 345px;
+}
+.wrapper {
+  padding-bottom: 10px;
+}
+
+.wrapperC {
+  margin-top: 50px;
+}
+
+.divider {
+  position: relative;
+  margin-top: 0px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
+}
+.card {
+  /* padding: 10px; */
+  /* text-align: center; */
+}

@@ -1,0 +1,19 @@
+.errormessage {
+  color: red;
+  font-size: 12px;
+}
+
+.alreadyregistered {
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  color: #555;
+}
+
+.alreadyregistered a {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.alreadyregistered a:hover {
+  text-decoration: none; /* Add underline on hover */
+}
